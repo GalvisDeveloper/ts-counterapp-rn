@@ -1,12 +1,15 @@
-import React from 'react'
-import { Text, TouchableOpacity, View } from 'react-native'
-import { CounterScreen } from './src/screens/CounterScreen'
+import React from 'react';
+import { SafeAreaView } from 'react-native';
+import BOMScreen from './src/screens/BOMScreen';
+import { CounterScreen } from './src/screens/CounterScreen';
 
 const App = () => {
+	return (
+		<SafeAreaView>
+			<CounterScreen />
+			<BOMScreen />
+		</SafeAreaView>
+	);
+};
 
-  return (
-    <CounterScreen />
-  )
-}
-
-export default App
+export default App;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { Text, StyleSheet, View } from 'react-native';
 import Fab from '../components/Fab';
 
 export const CounterScreen = () => {
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
 		color: 'white',
 	},
 	buttonCt: {
-		bottom: 0,
+		bottom: 20,
 		position: 'absolute',
 		display: 'flex',
 		flexDirection: 'row',
